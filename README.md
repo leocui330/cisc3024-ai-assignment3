@@ -16,7 +16,7 @@ python -B src/analyze.py
 
 `select` reads only the official training partition. It saves the fit/validation indices, validation grid, selected axes and source hashes. `evaluate` verifies these artifacts before reading the official test partition. `analyze.py` recomputes every metric from stored predictions and draws the figures. Use a new `--run-dir` for a fresh run.
 
-The [protocol](docs/PROTOCOL.md) describes the paired clean and training-contamination conditions. Three seeded splits use the same held-out writers. `results` contains the measured selection, per-run scores and summary. Source SVG-free vector plots and full per-image predictions can be regenerated.
+The [protocol](docs/PROTOCOL.md) describes the paired clean and training-contamination conditions. Three seeded splits use the same held-out writers. `results` contains the measured selection, per-run scores and summary. The commands above regenerate the figures and per-image predictions.
 
 ## Measured result
 
