@@ -1,0 +1,9 @@
+__pycache__/
+.venv/
+00_PROJECT_BRIEF.md
+assets/
+data/
+docs/private*
+logs/
+output/
+temp/

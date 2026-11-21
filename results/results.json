@@ -1,0 +1,332 @@
+{
+  "selection_sha256": "5cf5ed7fc163c390324d6cfea977806272eb77237f527ef0c3de4b1cd9a0fd50",
+  "test_sha256": "6ebb3d2fee246a4e99363262ddf8a00a3c41bee6014c373ed9d9216ba7f651b8",
+  "predictions_sha256": "715a157a5e33e531c77b78fcb4a3a8e5555d3614d08852ef78c6b5859dea4010",
+  "rows": [
+    {
+      "seed": 11,
+      "condition": "clean",
+      "method": "Pixels",
+      "correct": 1758,
+      "test_size": 1797,
+      "accuracy": 97.8297161936561,
+      "macro_f1": 97.82476381782705
+    },
+    {
+      "seed": 11,
+      "condition": "clean",
+      "method": "PCA",
+      "correct": 1739,
+      "test_size": 1797,
+      "accuracy": 96.77239844184753,
+      "macro_f1": 96.77455142359376
+    },
+    {
+      "seed": 11,
+      "condition": "clean",
+      "method": "PCA-L1",
+      "correct": 1741,
+      "test_size": 1797,
+      "accuracy": 96.88369504730106,
+      "macro_f1": 96.88256467602885
+    },
+    {
+      "seed": 11,
+      "condition": "clean",
+      "method": "RSPCA",
+      "correct": 1713,
+      "test_size": 1797,
+      "accuracy": 95.32554257095158,
+      "macro_f1": 95.30913694195749
+    },
+    {
+      "seed": 11,
+      "condition": "clean",
+      "method": "RSMPCA",
+      "correct": 1716,
+      "test_size": 1797,
+      "accuracy": 95.49248747913188,
+      "macro_f1": 95.47606793347884
+    },
+    {
+      "seed": 11,
+      "condition": "clean",
+      "method": "RSSPCA",
+      "correct": 1729,
+      "test_size": 1797,
+      "accuracy": 96.21591541457985,
+      "macro_f1": 96.21322411926468
+    },
+    {
+      "seed": 11,
+      "condition": "contaminated",
+      "method": "Pixels",
+      "correct": 1754,
+      "test_size": 1797,
+      "accuracy": 97.60712298274903,
+      "macro_f1": 97.60350300761132
+    },
+    {
+      "seed": 11,
+      "condition": "contaminated",
+      "method": "PCA",
+      "correct": 1737,
+      "test_size": 1797,
+      "accuracy": 96.661101836394,
+      "macro_f1": 96.66516867606572
+    },
+    {
+      "seed": 11,
+      "condition": "contaminated",
+      "method": "PCA-L1",
+      "correct": 1734,
+      "test_size": 1797,
+      "accuracy": 96.49415692821368,
+      "macro_f1": 96.50113782722673
+    },
+    {
+      "seed": 11,
+      "condition": "contaminated",
+      "method": "RSPCA",
+      "correct": 1735,
+      "test_size": 1797,
+      "accuracy": 96.54980523094045,
+      "macro_f1": 96.54896055286189
+    },
+    {
+      "seed": 11,
+      "condition": "contaminated",
+      "method": "RSMPCA",
+      "correct": 1732,
+      "test_size": 1797,
+      "accuracy": 96.38286032276015,
+      "macro_f1": 96.38407050181235
+    },
+    {
+      "seed": 11,
+      "condition": "contaminated",
+      "method": "RSSPCA",
+      "correct": 1731,
+      "test_size": 1797,
+      "accuracy": 96.32721202003339,
+      "macro_f1": 96.33158216150093
+    },
+    {
+      "seed": 22,
+      "condition": "clean",
+      "method": "Pixels",
+      "correct": 1749,
+      "test_size": 1797,
+      "accuracy": 97.32888146911519,
+      "macro_f1": 97.33141086874556
+    },
+    {
+      "seed": 22,
+      "condition": "clean",
+      "method": "PCA",
+      "correct": 1741,
+      "test_size": 1797,
+      "accuracy": 96.88369504730106,
+      "macro_f1": 96.89131307819643
+    },
+    {
+      "seed": 22,
+      "condition": "clean",
+      "method": "PCA-L1",
+      "correct": 1739,
+      "test_size": 1797,
+      "accuracy": 96.77239844184753,
+      "macro_f1": 96.78193771098037
+    },
+    {
+      "seed": 22,
+      "condition": "clean",
+      "method": "RSPCA",
+      "correct": 1734,
+      "test_size": 1797,
+      "accuracy": 96.49415692821368,
+      "macro_f1": 96.49301298518384
+    },
+    {
+      "seed": 22,
+      "condition": "clean",
+      "method": "RSMPCA",
+      "correct": 1739,
+      "test_size": 1797,
+      "accuracy": 96.77239844184753,
+      "macro_f1": 96.7823882333471
+    },
+    {
+      "seed": 22,
+      "condition": "clean",
+      "method": "RSSPCA",
+      "correct": 1736,
+      "test_size": 1797,
+      "accuracy": 96.60545353366723,
+      "macro_f1": 96.61138435527221
+    },
+    {
+      "seed": 22,
+      "condition": "contaminated",
+      "method": "Pixels",
+      "correct": 1757,
+      "test_size": 1797,
+      "accuracy": 97.77406789092933,
+      "macro_f1": 97.77472057386302
+    },
+    {
+      "seed": 22,
+      "condition": "contaminated",
+      "method": "PCA",
+      "correct": 1744,
+      "test_size": 1797,
+      "accuracy": 97.05063995548136,
+      "macro_f1": 97.04224893813877
+    },
+    {
+      "seed": 22,
+      "condition": "contaminated",
+      "method": "PCA-L1",
+      "correct": 1745,
+      "test_size": 1797,
+      "accuracy": 97.10628825820812,
+      "macro_f1": 97.0986716220515
+    },
+    {
+      "seed": 22,
+      "condition": "contaminated",
+      "method": "RSPCA",
+      "correct": 1743,
+      "test_size": 1797,
+      "accuracy": 96.99499165275459,
+      "macro_f1": 96.98030567632286
+    },
+    {
+      "seed": 22,
+      "condition": "contaminated",
+      "method": "RSMPCA",
+      "correct": 1740,
+      "test_size": 1797,
+      "accuracy": 96.8280467445743,
+      "macro_f1": 96.81883869914397
+    },
+    {
+      "seed": 22,
+      "condition": "contaminated",
+      "method": "RSSPCA",
+      "correct": 1740,
+      "test_size": 1797,
+      "accuracy": 96.8280467445743,
+      "macro_f1": 96.8170438560674
+    },
+    {
+      "seed": 33,
+      "condition": "clean",
+      "method": "Pixels",
+      "correct": 1755,
+      "test_size": 1797,
+      "accuracy": 97.6627712854758,
+      "macro_f1": 97.65803050158426
+    },
+    {
+      "seed": 33,
+      "condition": "clean",
+      "method": "PCA",
+      "correct": 1751,
+      "test_size": 1797,
+      "accuracy": 97.44017807456872,
+      "macro_f1": 97.43372071297823
+    },
+    {
+      "seed": 33,
+      "condition": "clean",
+      "method": "PCA-L1",
+      "correct": 1748,
+      "test_size": 1797,
+      "accuracy": 97.27323316638842,
+      "macro_f1": 97.27129348485147
+    },
+    {
+      "seed": 33,
+      "condition": "clean",
+      "method": "RSPCA",
+      "correct": 1750,
+      "test_size": 1797,
+      "accuracy": 97.38452977184195,
+      "macro_f1": 97.37729535876333
+    },
+    {
+      "seed": 33,
+      "condition": "clean",
+      "method": "RSMPCA",
+      "correct": 1744,
+      "test_size": 1797,
+      "accuracy": 97.05063995548136,
+      "macro_f1": 97.05610977560575
+    },
+    {
+      "seed": 33,
+      "condition": "clean",
+      "method": "RSSPCA",
+      "correct": 1749,
+      "test_size": 1797,
+      "accuracy": 97.32888146911519,
+      "macro_f1": 97.3312216040101
+    },
+    {
+      "seed": 33,
+      "condition": "contaminated",
+      "method": "Pixels",
+      "correct": 1750,
+      "test_size": 1797,
+      "accuracy": 97.38452977184195,
+      "macro_f1": 97.378428335226
+    },
+    {
+      "seed": 33,
+      "condition": "contaminated",
+      "method": "PCA",
+      "correct": 1746,
+      "test_size": 1797,
+      "accuracy": 97.16193656093489,
+      "macro_f1": 97.15568725327512
+    },
+    {
+      "seed": 33,
+      "condition": "contaminated",
+      "method": "PCA-L1",
+      "correct": 1749,
+      "test_size": 1797,
+      "accuracy": 97.32888146911519,
+      "macro_f1": 97.32746944575801
+    },
+    {
+      "seed": 33,
+      "condition": "contaminated",
+      "method": "RSPCA",
+      "correct": 1749,
+      "test_size": 1797,
+      "accuracy": 97.32888146911519,
+      "macro_f1": 97.32320601009731
+    },
+    {
+      "seed": 33,
+      "condition": "contaminated",
+      "method": "RSMPCA",
+      "correct": 1748,
+      "test_size": 1797,
+      "accuracy": 97.27323316638842,
+      "macro_f1": 97.26235816330488
+    },
+    {
+      "seed": 33,
+      "condition": "contaminated",
+      "method": "RSSPCA",
+      "correct": 1744,
+      "test_size": 1797,
+      "accuracy": 97.05063995548136,
+      "macro_f1": 97.0384348859984
+    }
+  ],
+  "seconds": 1.8569425999885425
+}
